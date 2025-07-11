@@ -1,6 +1,7 @@
 # Digital Athlete Hub 🧠🏃‍♂️🥦
 
 This project simulates a high-performance digital coaching system using multiple AI agents coordinated via [CrewAI](https://github.com/crewAIInc/crewAI). Each agent is specialized in one of the pillars of sports performance: nutrition, training, mental recovery, and integrated planning.
+The system ingests data from Garmin devices, processes it into a unified format, and generates personalized weekly performance plans.
 
 ---
 
@@ -111,7 +112,7 @@ reports/performance_report_YYYY-MM-DD.md
 
 📁 scripts/
  └─ planning_tasks.py           # Shared task definitions for modularity
- 
+
 main.py                         # Coordinates agents via CrewAI
 
 ```
