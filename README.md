@@ -95,9 +95,9 @@ reports/performance_report_YYYY-MM-DD.md
 
 ```
 📁 data/
- ├─ garmin/                  # Raw CSVs exported from API
- ├─ debug/                   # Raw JSON dumps (for inspection)
- └─ garmin_input.json        # Final DTO consumed by agents
+ ├─ garmin/                     # Raw CSVs exported from API
+ ├─ debug/                      # Raw JSON dumps (for inspection)
+ └─ garmin_input.json           # Final DTO consumed by agents
 
 📁 agents/
  ├─ nutritionist.py
@@ -106,11 +106,14 @@ reports/performance_report_YYYY-MM-DD.md
  └─ coach.py
 
 📁 scripts/
- ├─ garmin_export.py         # Fetches data from Garmin API
+ ├─ garmin_export.py            # Fetches data from Garmin API
  └─ parse_garmin_csv_to_dto.py  # Builds unified DTO from CSVs
 
-main.py                      # Coordinates agents via CrewAI
-planning_tasks.py            # Shared task definitions for modularity
+📁 scripts/
+ └─ planning_tasks.py           # Shared task definitions for modularity
+ 
+main.py                         # Coordinates agents via CrewAI
+
 ```
 
 ---
