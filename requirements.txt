@@ -1,0 +1,5 @@
+garminconnect
+python-dotenv
+pandas
+crewai
+openai

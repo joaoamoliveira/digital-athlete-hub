@@ -1,0 +1,5 @@
+.env
+*.csv
+*.json
+*/*.md
+__pycache__/
